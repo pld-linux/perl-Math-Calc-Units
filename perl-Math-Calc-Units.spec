@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	Calc-Units
+%define		pdir	Math
+%define		pnam	Calc-Units
 Summary:	Math::Calc::Units - human-readable unit-aware calculator
 Summary(pl):	Math::Calc::Units - kalkulator obs³uguj±cy jednostki
 Name:		perl-Math-Calc-Units
