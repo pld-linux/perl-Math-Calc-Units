@@ -38,7 +38,7 @@ dodanie dowolnych typów multiplikatywnych jest proste. Ka¿dy nieznany
 typ jest traktowany jako unikalny typ u¿ytkownika (z prób± zamiany
 angielskich form mnogich na pojedyncze).
 
-Podstawowy sposób u¿ycia to skrypt ucalc, wypisuj±cy wszystkie 
+Podstawowy sposób u¿ycia to skrypt ucalc, wypisuj±cy wszystkie
 "czytelne" warianty warto¶ci. Na przyk³ad "3 bytes" daje tylko "3
 byte", ale "3 byte / sec" daje warto¶æ oryginaln± oraz "180 byte /
 minute", "10.55 kilobyte / hour" itd.
@@ -48,7 +48,7 @@ minute", "10.55 kilobyte / hour" itd.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
