@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Calc-Units
 Summary:	Math::Calc::Units - human-readable unit-aware calculator
-Summary(pl):	Math::Calc::Units - kalkulator obs≥uguj±cy jednostki
+Summary(pl.UTF-8):   Math::Calc::Units - kalkulator obs≈ÇugujƒÖcy jednostki
 Name:		perl-Math-Calc-Units
 Version:	1.03
 Release:	1
@@ -31,16 +31,16 @@ of the "readable" variants of a value. For example, "3 bytes" will
 only produce "3 byte", but "3 byte / sec" produces the original along
 with "180 byte / minute", "10.55 kilobyte / hour", etc.
 
-%description -l pl
-Math::Calc::Units to prosty kalkulator zachowuj±cy jednostki.
-Aktualnie obs≥uguje tylko kombinacje rozmiaru w bajtach i czasu, ale
-dodanie dowolnych typÛw multiplikatywnych jest proste. Kaødy nieznany
-typ jest traktowany jako unikalny typ uøytkownika (z prÛb± zamiany
+%description -l pl.UTF-8
+Math::Calc::Units to prosty kalkulator zachowujƒÖcy jednostki.
+Aktualnie obs≈Çuguje tylko kombinacje rozmiaru w bajtach i czasu, ale
+dodanie dowolnych typ√≥w multiplikatywnych jest proste. Ka≈ºdy nieznany
+typ jest traktowany jako unikalny typ u≈ºytkownika (z pr√≥bƒÖ zamiany
 angielskich form mnogich na pojedyncze).
 
-Podstawowy sposÛb uøycia to skrypt ucalc, wypisuj±cy wszystkie
-"czytelne" warianty warto∂ci. Na przyk≥ad "3 bytes" daje tylko "3
-byte", ale "3 byte / sec" daje warto∂Ê oryginaln± oraz "180 byte /
+Podstawowy spos√≥b u≈ºycia to skrypt ucalc, wypisujƒÖcy wszystkie
+"czytelne" warianty warto≈õci. Na przyk≈Çad "3 bytes" daje tylko "3
+byte", ale "3 byte / sec" daje warto≈õƒá oryginalnƒÖ oraz "180 byte /
 minute", "10.55 kilobyte / hour" itd.
 
 %prep
