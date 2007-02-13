@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Calc-Units
 Summary:	Math::Calc::Units - human-readable unit-aware calculator
-Summary(pl.UTF-8):   Math::Calc::Units - kalkulator obsługujący jednostki
+Summary(pl.UTF-8):	Math::Calc::Units - kalkulator obsługujący jednostki
 Name:		perl-Math-Calc-Units
 Version:	1.03
 Release:	1
