@@ -8,12 +8,12 @@
 Summary:	Math::Calc::Units - human-readable unit-aware calculator
 Summary(pl.UTF-8):	Math::Calc::Units - kalkulator obsługujący jednostki
 Name:		perl-Math-Calc-Units
-Version:	1.03
+Version:	1.06
 Release:	1
 License:	GPL v2 or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a42e170a38e2b8c6ebea3edf0026183d
+# Source0-md5:	8ba1ff6c998de586ae4f84aa68cda0d0
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
